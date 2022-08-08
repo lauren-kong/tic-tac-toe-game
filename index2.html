@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="main2.css">
+    </head>
+
+    <body>
+        <h1>Tic-Tac-Toe</h1>        
+        <br>
+        <table id="table">
+          <div id="message-el"></div>
+            <tr>
+                <td onclick="startGame(this.id)" class="cell" id="cell1"></td>
+                <td onclick="startGame(this.id)" class="cell" id="cell2"></td>
+                <td onclick="startGame(this.id)" class="cell" id="cell3"></td>
+            </tr>
+            <tr>
+                <td onclick="startGame(this.id)" class="cell" id="cell4"></td>
+                <td onclick="startGame(this.id)" class="cell" id="cell5"></td>
+                <td onclick="startGame(this.id)" class="cell" id="cell6"></td>
+            </tr>
+            <tr>
+                <td onclick="startGame(this.id)" class="cell" id="cell7"></td>
+                <td onclick="startGame(this.id)" class="cell" id="cell8"></td>
+                <td onclick="startGame(this.id)" class="cell" id="cell9"></td>
+            </tr>
+        </table>
+        <h2 id="subtitle">Click on a cell to start playing with Computer!</h2>
+        <script src="game2.js"></script>
+    </body>
+</html>

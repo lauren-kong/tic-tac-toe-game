@@ -1,0 +1,96 @@
+/* Game board and text not responsive yet*/
+
+body {
+  background-color:white;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  margin-top: 40px;
+  }
+
+
+  
+table {
+    margin-right: center;
+    margin-left: center;
+    margin: 0 auto;
+    border-spacing: 0;
+    border-collapse: collapse;
+    /* opacity: 0.2; */
+
+  }
+  
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2vw;
+    color: black;
+  }
+  
+td {
+    width: 8vw;
+    height: 8vw;
+    text-align: center;
+    font-size: 300%;
+    border: black solid 3px;
+    color: black;
+    /* opacity: 0.3; */
+  }
+
+h2 {
+  text-align: center;
+  font-size: 2vw;
+  color: #4c2c92;
+}  
+
+#change-mode {
+  display: inline-block;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  background-color: rgb(242, 242, 242);
+  border: 0.5px solid grey;
+  border-radius: 10px;
+  width: 150px;
+  height: 30px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+#message-el{
+left: center;
+top: center;
+}
+.cell {
+  cursor: default;
+}
+
+.transparent {
+  opacity: 0.2;
+}
+
+.fa-solid{
+  margin-top: auto;
+  margin-left: auto;
+}
+
+.reload {
+  display: inline-block;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1rem;
+  background-color: white;
+  border: 0.5px solid grey;
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 5px;
+  vertical-align: middle;
+  padding-top: 3px;  
+  cursor: pointer;
+}
+
+.hide {
+  visibility: hidden;
+}
